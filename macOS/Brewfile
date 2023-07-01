@@ -44,7 +44,6 @@ brew "cmake"
 # Editors / IDEs
 cask "visual-studio-code"
 brew "helix"
-cask "clion"
 
 # DB Clients
 cask "redisinsight"
