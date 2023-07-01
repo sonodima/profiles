@@ -1,0 +1,80 @@
+tap "homebrew/cask"
+tap "sonodima/sonodima"
+
+brew "mas"
+
+cask "brave-browser"
+
+#################
+# Utilities
+#################
+
+# Must Haves
+cask "rectangle"
+cask "transmission"
+cask "monitorcontrol"
+cask "keka"
+
+# System / Styling
+cask "iterm2"
+cask "fig"
+cask "istat-menus"
+cask "appcleaner"
+cask "replacicon"
+
+# Virtualization
+cask "orbstack"
+cask "crossover"
+
+#################
+# Development
+#################
+
+# Rust
+brew "rustup-init"
+brew "rust-analyzer"
+
+# Go
+brew "go"
+brew "gopls"
+
+# C / C++
+brew "cmake"
+
+# Editors / IDEs
+cask "visual-studio-code"
+brew "helix"
+cask "clion"
+
+# DB Clients
+cask "redisinsight"
+cask "beekeeper-studio"
+
+# Tools
+cask "insomnia"
+brew "aobscan-cli"
+
+#################
+# Privacy / Security
+#################
+
+mas "Bitwarden", id: 1352778147
+cask "monero-wallet"
+cask "mullvadvpn"
+cask "mullvad-browser"
+cask "suspicious-package"
+
+#################
+# Media / Comms
+#################
+
+cask "discord"
+cask "signal"
+cask "iina"
+
+#################
+# Music
+#################
+
+cask "spotify"
+cask "ilok-license-manager"
