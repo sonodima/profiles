@@ -17,7 +17,7 @@ git clone https://github.com/sonodima/profiles.git ~/.profiles
 2. Install Packages
 
 ```bash
-brew bundle --file ~/.profiles/Brewfile
+brew bundle --file ~/.profiles/macOS/Brewfile
 ```
 
 3. Link Profiles
