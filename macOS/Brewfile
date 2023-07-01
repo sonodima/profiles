@@ -76,5 +76,4 @@ cask "iina"
 # Music
 #################
 
-cask "spotify"
 cask "ilok-license-manager"
