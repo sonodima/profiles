@@ -1,0 +1,18 @@
+theme = "mellow"
+
+[editor]
+line-number = "relative"
+true-color = true
+auto-format = true
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.file-picker]
+hidden = false
+# ignore = false
+# git-ignore = false
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints	= true
