@@ -27,6 +27,7 @@ brew bundle --file ~/.profiles/macOS/Brewfile
 ln -s ~/.profiles/helix ~/.config/helix
 
 # iTerm2
+touch ~/.hushlogin
 defaults write com.googlecode.iterm2 PrefsCustomFolder -string "~/.profiles/iterm"
 defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
 ```
