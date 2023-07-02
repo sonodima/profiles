@@ -51,7 +51,7 @@ cask "beekeeper-studio"
 
 # Tools
 cask "insomnia"
-brew "aobscan-cli"
+brew "aobscan"
 
 #################
 # Privacy / Security
