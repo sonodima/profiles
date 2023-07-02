@@ -7,11 +7,11 @@
 
 ## Music
 
-- ADSR Sample Manager / Sononym
+- ADSR Sample Manager
+- Audio Damage Quanta 2
 - Antares Auto-Tune Artist
 - Arturia
   - Analog Lab V
-  - Mini V3
   - Pigments
 - Cradle The God Particle
 - Devious Machines PitchMonster
@@ -33,15 +33,13 @@
 - Xfer Records
   - Serum
   - LFOTool
-  - Cthulhu
   - OTT
 - zplane ElastiquePitch V2
 - Zynaptiq PITCHMAP
 - Spectrasonics
   - Omnisphere
   - Keyscape
-- u-he Diva (maybe)
-- Vital (maybe)
+- Minimal Rift
 
 ## Tools
 

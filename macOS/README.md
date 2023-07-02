@@ -27,7 +27,8 @@ brew bundle --file ~/.profiles/macOS/Brewfile
 ln -s ~/.profiles/helix ~/.config/helix
 
 # iTerm2
-ln -s ~/.profiles/iterm/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
+defaults write com.googlecode.iterm2 PrefsCustomFolder -string "~/.profiles/iterm"
+defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
 ```
 
 ## Manual Packages
