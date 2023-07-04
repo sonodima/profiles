@@ -1,0 +1,76 @@
+apps:
+  pages:
+    - number: 1
+      items:
+    - number: 2
+      items:
+        - Brave Browser
+        - iTerm
+        - Bitwarden
+        - IINA
+        - Discord
+        - folder: Dev
+          pages:
+            - number: 1
+              items:
+                - Visual Studio Code
+                - Binary Ninja
+                - Insomnia
+                - Beekeeper Studio
+                - RedisInsight
+                - ida
+                - ida64
+        - folder: Music
+          pages:
+            - number: 1
+              items:
+                - iD
+                - Ableton Live 11 Suite
+                - ADSR Sample Manager
+                - Omnisphere
+                - Keyscape
+                - Pigments
+                - Analog Lab V
+                - Arturia Software Center
+                - iLok License Manager
+        - folder: Virtualization
+          pages:
+            - number: 1
+              items:
+                - OrbStack
+                - CrossOver
+                - CXPatcher
+        - folder: Privacy
+          pages:
+            - number: 1
+              items:
+                - Signal
+                - Mullvad VPN
+                - Mullvad Browser
+                - Suspicious Package
+                - monero-wallet-gui
+        - folder: Utility
+          pages:
+            - number: 1
+              items:
+                - Keka
+                - MonitorControl
+                - Rectangle
+                - Replacicon
+                - Transmission
+                - iStat Menus
+                - AppCleaner
+                - Fig
+                - CleanShot X
+dock_items:
+  - Launchpad
+  - Brave Browser
+  - Mail
+  - Calendar
+  - Ableton Live 11 Suite
+  - iTerm
+  - Visual Studio Code
+  - Binary Ninja
+  - Bitwarden
+  - Signal
+  - Discord

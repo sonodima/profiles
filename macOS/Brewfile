@@ -1,7 +1,9 @@
 tap "homebrew/cask"
 tap "sonodima/sonodima"
+tap "blacktop/tap"
 
 brew "mas"
+brew "lporg"
 
 cask "brave-browser"
 
@@ -37,6 +39,8 @@ brew "rust-analyzer"
 # Go
 brew "go"
 brew "gopls"
+brew "delve"
+brew "staticcheck"
 
 # C / C++
 brew "cmake"

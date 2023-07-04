@@ -41,3 +41,9 @@ Furthermore, some of the auto-installed packages are just installers, and need t
 ## Manual Configuration
 
 - iStat Menus _(import profile)_
+
+## Launchpad
+
+```bash
+lporg load ~/.profiles/macOS/Launch.yaml --no-backup
+```
