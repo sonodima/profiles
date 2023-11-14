@@ -44,4 +44,3 @@ Some packages need to be installed manually. See the [MANUAL.md](MANUAL.md) file
 
 Furthermore, some of the auto-installed packages are just installers, and need to be run manually.
 
-- **RUST** - requires toolchain installation using the `rustup-init` command

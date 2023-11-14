@@ -6,11 +6,10 @@
 
 This file contains a list of packages that need to be installed manually, either because they are not available via Homebrew, or because require additional manual steps.
 
-## Programs
-
-- [CleanShot X](https://cleanshot.com)
-- Binary Ninja
-- IDA Pro
+- **Rust** - requires toolchain installation using the `rustup-init` command
+- **CleanShot X** - requires installation and license activation
+- **Binary Ninja** - has its binary provided on purchase
+- **IDA Pro** - has its binary provided on purchase
 
 ## Music
 
@@ -23,25 +22,25 @@ This file contains a list of packages that need to be installed manually, either
 
 ### Plugins
 
-- Zynaptiq PITCHMAP
-- zplane ElastiquePitch V2
-- XLN Audio
+- **Zynaptiq** PITCHMAP
+- **zplane** ElastiquePitch V2
+- **XLN Audio**
   - RC-20
   - DS-10
-- Xfer Records
+- **Xfer Records**
   - Serum
   - OTT
   - LFOTool
-- Valhalla DSP, LLC
+- **Valhalla DSP, LLC**
   - VintageVerb
   - Supermassive
   - Room
   - Delay
-- Spectrasonics
+- **Spectrasonics**
   - Omnisphere
   - Keyscape
-- Plugin Boutique StereoSavage
-- FabFilter
+- **Plugin Boutique** StereoSavage
+- **FabFilter**
   - Timeless 3
   - Saturn 2
   - Pro-R
@@ -51,11 +50,10 @@ This file contains a list of packages that need to be installed manually, either
   - Pro-G
   - Pro-DS
   - Pro-C 2
-- Devious Machines Pitch Monster
-- Dada Life Endless Smile
-- Cradle The God Particle
-- Arturia
+- **Devious Machines** Pitch Monster
+- **Dada Life** Endless Smile
+- **Cradle** The God Particle
+- **Arturia**
   - Analog Lab V ?
   - Pigments ?
-- Antares Auto-Tune Artist
-- 2C Audio Kaleidoscope
+- **Antares** Auto-Tune Artist
