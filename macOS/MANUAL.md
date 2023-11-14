@@ -1,46 +1,61 @@
-# Manual Software
+<div align="center">
 
-## Development
+# Manual Installs - macOS
 
+</div>
+
+This file contains a list of packages that need to be installed manually, either because they are not available via Homebrew, or because require additional manual steps.
+
+## Programs
+
+- [CleanShot X](https://cleanshot.com)
 - Binary Ninja
 - IDA Pro
 
 ## Music
 
-- ADSR Sample Manager
-- Audio Damage Quanta 2
-- Antares Auto-Tune Artist
-- Arturia
-  - Analog Lab V
-  - Pigments
-- Cradle The God Particle
-- Devious Machines PitchMonster
-- FabFilter(s)
-- kHs
-  - Frequency Shifter
-  - Ring Mod
-  - Phase Plant
-- StereoSavage
-- Slate Digital Fresh Air
-- Valhalla
-  - Delay
-  - Room
-  - VintageVerb
-  - Supermassive
+### Other
+
+- Ableton Live
+- Melodyne
+- [Loopcloud](https://www.loopmasters.com/cloud/autoupdate/mac/release-unpacked7/Install%20Loopcloud%207.2.5%20Mac.pkg)
+- [Replay](https://www.tryreplay.io)
+
+### Plugins
+
+- Zynaptiq PITCHMAP
+- zplane ElastiquePitch V2
 - XLN Audio
-  - DS-10
   - RC-20
+  - DS-10
 - Xfer Records
   - Serum
-  - LFOTool
   - OTT
-- zplane ElastiquePitch V2
-- Zynaptiq PITCHMAP
+  - LFOTool
+- Valhalla DSP, LLC
+  - VintageVerb
+  - Supermassive
+  - Room
+  - Delay
 - Spectrasonics
   - Omnisphere
   - Keyscape
-- Minimal Rift
-
-## Tools
-
-- CleanShot X
+- Plugin Boutique StereoSavage
+- FabFilter
+  - Timeless 3
+  - Saturn 2
+  - Pro-R
+  - Pro-Q 3
+  - Pro-MB
+  - Pro-L 2
+  - Pro-G
+  - Pro-DS
+  - Pro-C 2
+- Devious Machines Pitch Monster
+- Dada Life Endless Smile
+- Cradle The God Particle
+- Arturia
+  - Analog Lab V ?
+  - Pigments ?
+- Antares Auto-Tune Artist
+- 2C Audio Kaleidoscope

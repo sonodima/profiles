@@ -1,4 +1,4 @@
-theme = "mellow"
+theme = "autumn_night"
 
 [editor]
 line-number = "relative"
@@ -10,8 +10,6 @@ insert = "bar"
 
 [editor.file-picker]
 hidden = false
-# ignore = false
-# git-ignore = false
 
 [editor.lsp]
 display-messages = true

@@ -1,34 +1,40 @@
-# macOS
+<div align="center">
 
-Install the system profiles with the following command:
+# System Profiles - macOS
 
-1. Clone this Repository
+</div>
+
+This directory contains configuration files, scripts, and other resources for macOS systems.
+
+## Setup Instructions
+
+1. Clone this repository to `~/.profiles`
 
 ```bash
-git clone https://github.com/sonodima/profiles.git ~/.profiles
+git clone https://github.com/sonodima/profiles ~/.profiles
 ```
 
-1. Install Homebrew
+2. Install Homebrew _(if not already installed)_
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-2. Install Packages
+3. Restore the Homebrew packages from the **Brewfile**
 
 ```bash
-brew bundle --file ~/.profiles/macOS/Brewfile
+brew bundle --file ~/.profiles/macos/Brewfile
 ```
 
-3. Link Profiles
+4. Link the configuration files to their respective locations
 
 ```bash
 # Helix
-ln -s ~/.profiles/helix ~/.config/helix
+ln -s ~/.profiles/apps/helix ~/.config/helix
 
 # iTerm2
 touch ~/.hushlogin
-defaults write com.googlecode.iterm2 PrefsCustomFolder -string "~/.profiles/iterm"
+defaults write com.googlecode.iterm2 PrefsCustomFolder -string "~/.profiles/apps/iterm2"
 defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
 ```
 
@@ -38,12 +44,4 @@ Some packages need to be installed manually. See the [MANUAL.md](MANUAL.md) file
 
 Furthermore, some of the auto-installed packages are just installers, and need to be run manually.
 
-## Manual Configuration
-
-- iStat Menus _(import profile)_
-
-## Launchpad
-
-```bash
-lporg load ~/.profiles/macOS/Launch.yaml --no-backup
-```
+- **RUST** - requires toolchain installation using the `rustup-init` command
