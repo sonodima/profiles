@@ -1,0 +1,9 @@
+[submodule "apps/zsh/plugins/fzf-tab"]
+	path = apps/zsh/plugins/fzf-tab
+	url = https://github.com/Aloxaf/fzf-tab
+[submodule "apps/zsh/plugins/zsh-syntax-highlighting"]
+	path = apps/zsh/plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting
+[submodule "apps/zsh/plugins/zsh-autosuggestions"]
+	path = apps/zsh/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions

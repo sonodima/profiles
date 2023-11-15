@@ -9,7 +9,7 @@ export FZF_DEFAULT_COMMAND="rg --files --no-ignore-vcs --hidden"
 ###########################
 
 ZSH_THEME="arrow"
-plugins=(git docker dotnet golang pip rust encode64 extract jsontools)
+plugins=(git docker bun dotnet golang pip rust encode64 extract jsontools)
 
 source $ZSH/oh-my-zsh.sh
 
