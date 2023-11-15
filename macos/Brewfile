@@ -37,7 +37,7 @@ cask "monitorcontrol"
 cask "appcleaner"
 
 # Applications
-cask "iterm2"
+cask "kitty"
 cask "orion"
 cask "obsidian"
 cask "iina"
