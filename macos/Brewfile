@@ -53,11 +53,8 @@ cask "signal"
 
 # Developer
 cask "visual-studio-code"
-# cask "beekeeper-studio"
 cask "orbstack"
 cask "httpie"
+# cask "beekeeper-studio"
 # cask "clion"
 # cask "rider"
-
-# zsh-autosuggestions
-# zsh-syntax-highlighting

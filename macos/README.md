@@ -20,17 +20,25 @@ git clone https://github.com/sonodima/profiles ~/.profiles
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-3. Restore the Homebrew packages from the **Brewfile**
+3. Install Oh-My-Zsh _(if not already installed)_
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+touch .hushlogin
+```
+
+4. Restore the Homebrew packages from the **Brewfile**
 
 ```bash
 brew bundle --file ~/.profiles/macos/Brewfile
 ```
 
-4. Link the configuration files to their respective locations
+5. Link the configuration files to their respective locations
 
 ```bash
 ln -s ~/.profiles/apps/helix ~/.config/helix
 ln -s ~/.profiles/apps/kitty ~/.config/kitty
+ln -s ~/.profiles/apps/zsh/.zshrc ~/.zshrc 
 ```
 
 ## Manual Packages
