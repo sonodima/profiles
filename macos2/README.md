@@ -29,13 +29,8 @@ brew bundle --file ~/.profiles/macos/Brewfile
 4. Link the configuration files to their respective locations
 
 ```bash
-# Helix
 ln -s ~/.profiles/apps/helix ~/.config/helix
-
-# iTerm2
-touch ~/.hushlogin
-defaults write com.googlecode.iterm2 PrefsCustomFolder -string "~/.profiles/apps/iterm2"
-defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
+ln -s ~/.profiles/apps/kitty ~/.config/kitty
 ```
 
 ## Manual Packages
