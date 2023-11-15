@@ -42,7 +42,7 @@ cask "transmission"
 
 # Privacy / Security
 mas "Bitwarden", id: 1352778147
-cask "mullvad-vpn"
+cask "mullvadvpn"
 cask "mullvad-browser"
 cask "monero-wallet"
 cask "suspicious-package"
@@ -53,11 +53,11 @@ cask "signal"
 
 # Developer
 cask "visual-studio-code"
-caks "beekeper-studio"
+# cask "beekeeper-studio"
 cask "orbstack"
 cask "httpie"
-cask "clion"
-cask "rider"
+# cask "clion"
+# cask "rider"
 
 # zsh-autosuggestions
 # zsh-syntax-highlighting
