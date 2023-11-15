@@ -15,9 +15,6 @@ brew "fzf"
 brew "radare2"
 brew "aobscan"
 
-# zsh-autosuggestions
-# zsh-syntax-highlighting
-
 # Languages & Tooling
 brew "rustup-init" # Rust Toolchain Installer
 brew "rust-analyzer" # Rust Compiler Frontend
@@ -34,7 +31,7 @@ cask "stats"
 cask "keka"
 cask "kekaexternalhelper"
 cask "monitorcontrol"
-cask "appcleaner"
+cask "appcleaner"
 
 # Applications
 cask "kitty"
@@ -61,3 +58,6 @@ cask "orbstack"
 cask "httpie"
 cask "clion"
 cask "rider"
+
+# zsh-autosuggestions
+# zsh-syntax-highlighting
