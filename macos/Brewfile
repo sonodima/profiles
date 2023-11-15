@@ -24,6 +24,7 @@ brew "go"
 brew "gopls" # Go Language Server
 brew "delve" # Go Debugger
 brew "staticcheck" # Go Linter
+cask "dotnet-sdk"
 
 # Utils (Apps)
 cask "rectangle"
