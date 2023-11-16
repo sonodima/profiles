@@ -19,6 +19,7 @@ brew "aobscan"
 brew "rustup-init" # Rust Toolchain Installer
 brew "rust-analyzer" # Rust Compiler Frontend
 brew "cmake"
+brew "nvm"
 brew "bun"
 brew "go"
 brew "gopls" # Go Language Server
