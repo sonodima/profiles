@@ -1,8 +1,8 @@
-# Opens an application for analysis using BinaryNinja.
+# Opens an application for analysis using Binary Ninja.
 # If a directory is specified (e.g. a *.app), fzf is displayed with the list of
 # files it contains, allowing to manually specify which file to open.
 bn() {
-  [[ -z "$1" || ! -e "$1" ]] && { echo "Usage: bn <file or directory>"; return 1; }
+  [[ -z "$1" || ! -e "$1" ]] && { echo "usage: bn <file or directory>"; return 1; }
   
   local root="$1"
   if [[ -d "$root" ]]; then
