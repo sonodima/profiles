@@ -2,6 +2,7 @@ export ZSH="$HOME/.oh-my-zsh"
 export PROFILES="$HOME/.profiles"
 export GOPATH="$HOME/.go"
 
+export FZF_DEFAULT_OPTS="--color=bg+:gray,spinner:green,pointer:green,gutter:-1"
 export FZF_DEFAULT_COMMAND="rg --files --no-ignore-vcs --hidden"
 ZSH_THEME="arrow"
 
