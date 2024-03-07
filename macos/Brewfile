@@ -19,13 +19,15 @@ brew "aobscan"
 brew "rustup-init" # Rust Toolchain Installer
 brew "rust-analyzer" # Rust Compiler Frontend
 brew "cmake"
+brew "ninja"
+brew "pkg-config"
 brew "nvm"
-brew "bun"
+# brew "bun"
 brew "go"
 brew "gopls" # Go Language Server
 brew "delve" # Go Debugger
 brew "staticcheck" # Go Linter
-cask "dotnet-sdk"
+# cask "dotnet-sdk"
 
 # Utils (Apps)
 cask "rectangle"
@@ -48,6 +50,7 @@ cask "mullvadvpn"
 cask "mullvad-browser"
 cask "monero-wallet"
 cask "suspicious-package"
+cask "packages"
 
 # Communications
 cask "discord"
@@ -60,4 +63,4 @@ cask "httpie"
 # cask "beekeeper-studio"
 # cask "clion"
 # cask "rider"
-cask "Genymotion"
+# cask "Genymotion"

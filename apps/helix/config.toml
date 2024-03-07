@@ -1,17 +1,18 @@
-theme = "fleet_dark"
+theme = "everforest_dark"
 
 [editor]
 line-number = "relative"
 true-color = true
 auto-format = true
+completion-replace = true
+rulers = [80]
+bufferline = "multiple"
+color-modes = true
+default-line-ending = "lf"
 
 [editor.cursor-shape]
 insert = "bar"
 
-[editor.file-picker]
-hidden = false
-
 [editor.lsp]
 display-messages = true
 display-inlay-hints	= true
-
