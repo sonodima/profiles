@@ -7,3 +7,6 @@
 [submodule "apps/zsh/plugins/zsh-autosuggestions"]
 	path = apps/zsh/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "apps/zsh/plugins/zsh-defer"]
+	path = apps/zsh/plugins/zsh-defer
+	url = https://github.com/romkatv/zsh-defer
