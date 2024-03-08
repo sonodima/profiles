@@ -41,6 +41,12 @@ ln -s ~/.profiles/apps/kitty ~/.config/kitty
 ln -s ~/.profiles/apps/zsh/.zshrc ~/.zshrc 
 ```
 
+## Extra Configuration
+
+```bash
+defaults write -g NSWindowShouldDragOnGesture YES # Hold CTL+CMD to drag Kitty
+```
+
 ## Manual Packages
 
 Some packages need to be installed manually. See the [MANUAL.md](MANUAL.md) file for more information.
