@@ -6,6 +6,7 @@ tap "sonodima/sonodima"
 
 # Fonts
 cask "font-jetbrains-mono-nerd-font"
+cask "font-inter"
 
 # Utils (Tools)
 brew "helix"
