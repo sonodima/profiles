@@ -18,3 +18,6 @@ source $PROFILES/apps/zsh/plugins/binary-ninja/binary-ninja.zsh
 # Add Python3 Binaries to PATH
 PYTHON=$(python3 -m site --user-base)
 export PATH="$PYTHON/bin:$PATH"
+
+# Add Go Binaries to PATH
+export PATH="$GOPATH/bin:$PATH"
