@@ -45,6 +45,7 @@ ln -s ~/.profiles/apps/zsh/.zshrc ~/.zshrc
 
 ```bash
 defaults write -g NSWindowShouldDragOnGesture YES # Hold CTL+CMD to drag Kitty
+defaults import eu.exelban.Stats ~/.profiles/macos/apps/Stats.plist # Stats Configuration
 ```
 
 ## Manual Packages
