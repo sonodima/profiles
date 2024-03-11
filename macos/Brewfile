@@ -1,6 +1,5 @@
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-tap "oven-sh/bun"
 tap "sonodima/sonodima"
 
 # ================================================
@@ -14,28 +13,28 @@ brew "ripgrep"
 brew "fzf"
 brew "radare2"
 brew "aobscan"
-
-# Languages & Tooling
-brew "rustup-init" # Rust Toolchain Installer
-brew "rust-analyzer" # Rust Compiler Frontend
-brew "cmake"
-brew "ninja"
-brew "pkg-config"
-brew "nvm"
-# brew "bun"
-brew "go"
-brew "gopls" # Go Language Server
-brew "delve" # Go Debugger
-brew "staticcheck" # Go Linter
-# cask "dotnet-sdk"
-
-# Utils (Apps)
+brew "neofetch"
 cask "rectangle"
 cask "stats"
 cask "keka"
 cask "kekaexternalhelper"
-cask "monitorcontrol"
 cask "appcleaner"
+
+# Languages & Tooling
+brew "rustup-init" # Rust Toolchain Installer
+brew "rust-analyzer" # Rust Compiler Frontend
+cask "gcc-arm-embedded"
+brew "cmake"
+brew "ninja"
+brew "pkg-config"
+brew "nvm" # Node Version Manager
+brew "go"
+brew "gopls" # Go Language Server
+brew "delve" # Go Debugger
+brew "staticcheck" # Go Linter
+cask "orbstack"
+cask "httpie"
+# cask "packages" (the current release has an issue on new macos versions, so install the one provided by email by the developer)
 
 # Applications
 cask "kitty"
@@ -46,8 +45,6 @@ cask "transmission"
 
 # Privacy / Security
 mas "Bitwarden", id: 1352778147
-cask "mullvadvpn"
-cask "mullvad-browser"
 cask "monero-wallet"
 cask "suspicious-package"
 cask "packages"
@@ -55,12 +52,3 @@ cask "packages"
 # Communications
 cask "discord"
 cask "signal"
-
-# Developer
-cask "visual-studio-code"
-cask "orbstack"
-cask "httpie"
-# cask "beekeeper-studio"
-# cask "clion"
-# cask "rider"
-# cask "Genymotion"
