@@ -20,6 +20,7 @@ cask "stats"
 cask "keka"
 cask "kekaexternalhelper"
 cask "appcleaner"
+cask "whisky"
 
 # Languages & Tooling
 brew "rustup-init" # Rust Toolchain Installer
@@ -28,6 +29,7 @@ cask "gcc-arm-embedded"
 brew "cmake"
 brew "ninja"
 brew "pkg-config"
+brew "clang-format"
 brew "nvm" # Node Version Manager
 brew "go"
 brew "gopls" # Go Language Server
