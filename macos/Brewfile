@@ -51,6 +51,7 @@ mas "Bitwarden", id: 1352778147
 cask "monero-wallet"
 cask "suspicious-package"
 cask "packages"
+cask "idafree"
 
 # Communications
 cask "discord"
