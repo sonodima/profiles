@@ -41,10 +41,15 @@ ln -s ~/.profiles/apps/kitty ~/.config/kitty
 ln -s ~/.profiles/apps/zsh/.zshrc ~/.zshrc 
 ```
 
+6. Apply the customized **macOS Settings** and **Tweaks**
+
+```bash
+~/.profiles/macos/config.sh
+```
+
 ## Extra Configuration
 
 ```bash
-defaults write -g NSWindowShouldDragOnGesture YES # Hold CTL+CMD to drag Kitty
 defaults import eu.exelban.Stats ~/.profiles/macos/apps/Stats.plist # Stats Configuration
 ```
 
@@ -53,4 +58,3 @@ defaults import eu.exelban.Stats ~/.profiles/macos/apps/Stats.plist # Stats Conf
 Some packages need to be installed manually. See the [MANUAL.md](MANUAL.md) file for more information.
 
 Furthermore, some of the auto-installed packages are just installers, and need to be run manually.
-

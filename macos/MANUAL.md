@@ -10,3 +10,4 @@ This file contains a list of packages that need to be installed manually, either
 - **Node** - requires manual installation using the `nvm install --lts` command
 - **CleanShot X** - requires installation and license activation
 - **Binary Ninja** - has its binary provided on purchase
+- **Packages** - the only version that works correctly is a beta I got from the developer
