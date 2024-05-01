@@ -1,4 +1,3 @@
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "sonodima/sonodima"
 
@@ -6,7 +5,6 @@ tap "sonodima/sonodima"
 
 # Fonts
 cask "font-jetbrains-mono-nerd-font"
-cask "font-inter"
 
 # Utils (Tools)
 brew "helix"
@@ -14,7 +12,6 @@ brew "ripgrep"
 brew "fzf"
 brew "radare2"
 brew "aobscan"
-brew "neofetch"
 cask "rectangle"
 cask "stats"
 cask "keka"
@@ -50,9 +47,14 @@ cask "transmission"
 mas "Bitwarden", id: 1352778147
 cask "monero-wallet"
 cask "suspicious-package"
-cask "packages"
 cask "idafree"
 
 # Communications
 cask "discord"
 cask "signal"
+
+# ================================================
+
+# Heavy Boys (download as last)
+mas "Keynote", id: 409183694
+mas "Xcode", id: 497799835
