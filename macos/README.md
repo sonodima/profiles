@@ -11,7 +11,7 @@ This directory contains configuration files, scripts, and other resources for ma
 1. Clone this repository to `~/.profiles`
 
 ```bash
-git clone https://github.com/sonodima/profiles ~/.profiles
+git clone --recurse-submodules https://github.com/sonodima/profiles ~/.profiles
 ```
 
 2. Install Homebrew _(if not already installed)_
@@ -36,6 +36,7 @@ brew bundle --file ~/.profiles/macos/Brewfile
 5. Link the configuration files to their respective locations
 
 ```bash
+mkdir ~/.config
 ln -s ~/.profiles/apps/helix ~/.config/helix
 ln -s ~/.profiles/apps/kitty ~/.config/kitty
 ln -s ~/.profiles/apps/zsh/.zshrc ~/.zshrc 
