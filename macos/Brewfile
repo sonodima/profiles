@@ -42,6 +42,7 @@ cask "orion"
 cask "obsidian"
 cask "iina"
 cask "transmission"
+cask "replacicon"
 
 # Privacy / Security
 mas "Bitwarden", id: 1352778147
