@@ -34,6 +34,7 @@ brew "delve" # Go Debugger
 brew "staticcheck" # Go Linter
 cask "orbstack"
 cask "httpie"
+cask "visual-studio-code"
 # cask "packages" (the current release has an issue on new macos versions, so install the one provided by email by the developer)
 
 # Applications
