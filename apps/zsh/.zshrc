@@ -1,6 +1,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 export PROFILES="$HOME/.profiles"
 export GOPATH="$HOME/.go"
+export NVM_DIR="$HOME/.nvm"
 
 export FZF_DEFAULT_OPTS="--color=bg+:gray,spinner:green,pointer:green,gutter:-1"
 export FZF_DEFAULT_COMMAND="rg --files --no-ignore-vcs --hidden"
@@ -21,3 +22,7 @@ export PATH="$PYTHON/bin:$PATH"
 
 # Add Go Binaries to PATH
 export PATH="$GOPATH/bin:$PATH"
+
+# Load the Node Version Manager
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
