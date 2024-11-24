@@ -20,6 +20,7 @@ cask "appcleaner"
 cask "replacicon"
 cask "blobsaver" # Automatically Save SHSH Blobs
 cask "mist" # macOS Installer Creator
+cask "grandperspective"
 
 # Languages & Tooling
 brew "mise"
