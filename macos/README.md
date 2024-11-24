@@ -24,7 +24,6 @@ git clone --recurse-submodules https://github.com/sonodima/profiles ~/.profiles
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-touch .hushlogin
 ```
 
 4. Restore the Homebrew packages from the **Brewfile**
@@ -39,7 +38,7 @@ brew bundle --file ~/.profiles/macos/Brewfile
 mkdir ~/.config
 ln -s ~/.profiles/apps/helix ~/.config/helix
 ln -s ~/.profiles/apps/kitty ~/.config/kitty
-ln -s ~/.profiles/apps/zsh/.zshrc ~/.zshrc 
+rm ~/.zshrc && ln -s ~/.profiles/apps/zsh/.zshrc ~/.zshrc 
 ```
 
 6. Apply the customized **macOS Settings** and **Tweaks**
@@ -52,6 +51,14 @@ ln -s ~/.profiles/apps/zsh/.zshrc ~/.zshrc
 
 ```bash
 defaults import eu.exelban.Stats ~/.profiles/macos/apps/Stats.plist # Stats Configuration
+```
+
+```bash
+touch .hushlogin # Hide "Last Login" in Terminal
+```
+
+```bash
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer # Switch to the Xcode.app Dev Toolchain
 ```
 
 ## Manual Packages

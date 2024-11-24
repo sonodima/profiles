@@ -1,4 +1,3 @@
-tap "homebrew/cask-fonts"
 tap "sonodima/sonodima"
 
 # ================================================
@@ -10,6 +9,7 @@ cask "font-jetbrains-mono-nerd-font"
 brew "helix"
 brew "ripgrep"
 brew "fzf"
+brew "fd" # Alternative to Find
 brew "radare2"
 brew "aobscan"
 cask "rectangle"
@@ -17,46 +17,51 @@ cask "stats"
 cask "keka"
 cask "kekaexternalhelper"
 cask "appcleaner"
-cask "whisky"
+cask "replacicon"
+cask "blobsaver" # Automatically Save SHSH Blobs
+cask "mist" # macOS Installer Creator
 
 # Languages & Tooling
-brew "rustup-init" # Rust Toolchain Installer
+brew "mise"
+brew "rustup" # Rust Toolchain Installer
 brew "rust-analyzer" # Rust Compiler Frontend
 cask "gcc-arm-embedded"
+brew "arduino-cli"
 brew "cmake"
 brew "ninja"
 brew "pkg-config"
 brew "clang-format"
-brew "nvm" # Node Version Manager
 brew "go"
 brew "gopls" # Go Language Server
 brew "delve" # Go Debugger
 brew "staticcheck" # Go Linter
-cask "orbstack"
-cask "httpie"
 cask "visual-studio-code"
-# cask "packages" (the current release has an issue on new macos versions, so install the one provided by email by the developer)
+cask "orbstack" # Docker Desktop Alternative
+cask "hoppscotch" # API Development Ecosystem
 
 # Applications
-cask "kitty"
-cask "orion"
+cask "kitty" # Terminal Emulator
+cask "orion" # Web Browser
 cask "obsidian"
-cask "iina"
-cask "transmission"
-cask "replacicon"
+cask "transmission" # Torrent Client
+cask "soulseek" # P2P File Sharing
+cask "iina" # Quick and Simple Media Player
+mas "Infuse", id: 1136220934 # Media Streaming Client
 
 # Privacy / Security
 mas "Bitwarden", id: 1352778147
-cask "monero-wallet"
+cask "tailscale"
+cask "mullvadvpn"
 cask "suspicious-package"
-cask "idafree"
+cask "monero-wallet"
 
 # Communications
+cask "slack"
 cask "discord"
 cask "signal"
 
 # ================================================
 
-# Heavy Boys (download as last)
-mas "Keynote", id: 409183694
+# Heavy Boys (download for last)
 mas "Xcode", id: 497799835
+cask "android-studio"
