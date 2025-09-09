@@ -22,9 +22,6 @@ uicoset() {
 
 defaults write NSGlobalDomain "AppleShowAllExtensions" -bool true
 
-# Hold Ctrl and Command to drag windows with the mouse
-defaults write NSGlobalDomain "NSWindowShouldDragOnGesture" -bool true
-
 # Save to the local disk by default, instead of iCloud
 defaults write NSGlobalDomain "NSDocumentSaveNewDocumentsToCloud" -bool false
 
@@ -34,10 +31,6 @@ defaults write com.apple.TimeMachine "DoNotOfferNewDisksForBackup" -bool false
 # Don't create ".DS_Store" files on Network or USB Volumes
 defaults write com.apple.desktopservices "DSDontWriteNetworkStores" -bool true
 defaults write com.apple.desktopservices "DSDontWriteUSBStores" -bool true
-
-# Enable a nicer shade of blue you only get with the new iMacs because Apple
-defaults write NSGlobalDomain "NSColorSimulateHardwareAccent" -bool true
-defaults write NSGlobalDomain "NSColorSimulatedHardwareEnclosureNumber" -int 5
 
 
 #######################
@@ -69,7 +62,7 @@ defaults write com.apple.finder "SidebarWidth" -int 160
 # By default, use the column view in Finder
 defaults write com.apple.finder "FXPreferredViewStyle" -string "clmv"
 
-# By default, perform Finder searches in the current folder 
+# By default, perform Finder searches in the current folder
 defaults write com.apple.finder "FXDefaultSearchScope" -string "SCcf"
 
 defaults write com.apple.finder "_FXSortFoldersFirst" -bool true

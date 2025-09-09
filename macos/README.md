@@ -36,9 +36,9 @@ brew bundle --file ~/.profiles/macos/Brewfile
 
 ```bash
 mkdir ~/.config
+ln -s ~/.profiles/apps/ghostty ~/.config/ghostty
 ln -s ~/.profiles/apps/helix ~/.config/helix
-ln -s ~/.profiles/apps/kitty ~/.config/kitty
-rm ~/.zshrc && ln -s ~/.profiles/apps/zsh/.zshrc ~/.zshrc 
+rm ~/.zshrc && ln -s ~/.profiles/apps/zsh/.zshrc ~/.zshrc
 ```
 
 6. Apply the customized **macOS Settings** and **Tweaks**

@@ -1,68 +1,90 @@
 tap "sonodima/sonodima"
 
+
+# ================================================
+# System
 # ================================================
 
 # Fonts
 cask "font-jetbrains-mono-nerd-font"
 
-# Utils (Tools)
-brew "helix"
+# Terminal
 brew "ripgrep"
 brew "fzf"
-brew "fd" # Alternative to Find
-brew "radare2"
-brew "aobscan"
-cask "rectangle"
-cask "stats"
+brew "fd"
+cask "ghostty"
+
+# Main Apps
+cask "google-chrome"
+cask "obsidian"
+
+# Utilities
 cask "keka"
 cask "kekaexternalhelper"
-cask "appcleaner"
+cask "stats"
 cask "replacicon"
-cask "blobsaver" # Automatically Save SHSH Blobs
-cask "mist" # macOS Installer Creator
-cask "grandperspective"
+cask "transmission"
+cask "soulseek"
 
-# Languages & Tooling
-brew "mise"
-brew "rustup" # Rust Toolchain Installer
-brew "rust-analyzer" # Rust Compiler Frontend
-cask "gcc-arm-embedded"
-brew "arduino-cli"
-brew "cmake"
-brew "ninja"
-brew "pkg-config"
-brew "clang-format"
-brew "go"
-brew "gopls" # Go Language Server
-brew "delve" # Go Debugger
-brew "staticcheck" # Go Linter
-cask "visual-studio-code"
-cask "orbstack" # Docker Desktop Alternative
-cask "hoppscotch" # API Development Ecosystem
+# Media / Games
+cask "iina"
+cask "sony-ps-remote-play"
 
-# Applications
-cask "kitty" # Terminal Emulator
-cask "orion" # Web Browser
-cask "obsidian"
-cask "transmission" # Torrent Client
-cask "soulseek" # P2P File Sharing
-cask "iina" # Quick and Simple Media Player
-mas "Infuse", id: 1136220934 # Media Streaming Client
-
-# Privacy / Security
-mas "Bitwarden", id: 1352778147
-cask "tailscale"
-cask "mullvadvpn"
-cask "suspicious-package"
-cask "monero-wallet"
+# Extras
+cask "mist"
+cask "blobsaver"
+cask "pika"
 
 # Communications
 cask "slack"
-cask "discord"
-cask "signal"
+
 
 # ================================================
+# Software Development
+# ================================================
 
-# Heavy Boys (download for last)
-mas "Xcode", id: 497799835
+# Tooling & Enviroments
+brew "mise"
+brew "arduino-cli"
+cask "orbstack" # Docker Alternative
+cask "devpod" # DevContainers Manager
+cask "xcodes" # Xcode Version Manager
+
+# Code Editors
+brew "helix"
+cask "visual-studio-code"
+cask "zed"
+
+# Reverse Engineering
+brew "radare2"
+cask "suspicious-package"
+
+# API / DB
+cask "rapidapi"
+
+
+
+
+
+
+
+
+
+# Management
+mas "ServerCat - SSH Terminal", id: 1501532023
+cask "tailscale"
+
+
+
+
+# Privacy / Security
+mas "Bitwarden", id: 1352778147
+cask "monero-wallet"
+
+
+
+# ================================================
+# Heavy Stuff (last to install)
+# ================================================
+
 cask "android-studio"
