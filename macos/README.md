@@ -56,13 +56,3 @@ defaults import eu.exelban.Stats ~/.profiles/macos/apps/Stats.plist # Stats Conf
 ```bash
 touch .hushlogin # Hide "Last Login" in Terminal
 ```
-
-```bash
-sudo xcode-select -s /Applications/Xcode.app/Contents/Developer # Switch to the Xcode.app Dev Toolchain
-```
-
-## Manual Packages
-
-Some packages need to be installed manually. See the [MANUAL.md](MANUAL.md) file for more information.
-
-Furthermore, some of the auto-installed packages are just installers, and need to be run manually.
