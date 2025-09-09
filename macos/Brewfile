@@ -14,10 +14,6 @@ brew "fzf"
 brew "fd"
 cask "ghostty"
 
-# Main Apps
-cask "google-chrome"
-cask "obsidian"
-
 # Utilities
 cask "keka"
 cask "kekaexternalhelper"
@@ -25,6 +21,14 @@ cask "stats"
 cask "replacicon"
 cask "transmission"
 cask "soulseek"
+
+# Main Apps
+mas "Bitwarden", id: 1352778147
+mas "ServerCat - SSH Terminal", id: 1501532023
+cask "tailscale"
+cask "google-chrome"
+cask "obsidian"
+cask "monero-wallet"
 
 # Media / Games
 cask "iina"
@@ -61,26 +65,6 @@ cask "suspicious-package"
 
 # API / DB
 cask "rapidapi"
-
-
-
-
-
-
-
-
-
-# Management
-mas "ServerCat - SSH Terminal", id: 1501532023
-cask "tailscale"
-
-
-
-
-# Privacy / Security
-mas "Bitwarden", id: 1352778147
-cask "monero-wallet"
-
 
 
 # ================================================
