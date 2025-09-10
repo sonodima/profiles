@@ -13,6 +13,7 @@ source $ZSH/oh-my-zsh.sh
 source $PROFILES/apps/zsh/plugins/fzf-tab/fzf-tab.plugin.zsh
 source $PROFILES/apps/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $PROFILES/apps/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+eval "$(mise activate zsh)"
 
 
 # Android SDK Setup
