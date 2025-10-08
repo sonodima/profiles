@@ -28,6 +28,7 @@ mas "ServerCat - SSH Terminal", id: 1501532023
 cask "tailscale"
 cask "google-chrome"
 cask "obsidian"
+cask "virtualbuddy"
 
 # Media / Games
 cask "iina"
