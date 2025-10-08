@@ -20,6 +20,7 @@ cask "replacicon"
 cask "transmission"
 cask "soulseek"
 cask "rectangle"
+cask "altserver"
 
 # Main Apps
 mas "Bitwarden", id: 1352778147
