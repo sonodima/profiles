@@ -1,6 +1,3 @@
-tap "sonodima/sonodima"
-
-
 # ================================================
 # System
 # ================================================
@@ -15,12 +12,14 @@ brew "fd"
 cask "ghostty"
 
 # Utilities
+brew "mist"
 cask "keka"
 cask "kekaexternalhelper"
 cask "stats"
 cask "replacicon"
 cask "transmission"
 cask "soulseek"
+cask "rectangle"
 
 # Main Apps
 mas "Bitwarden", id: 1352778147
@@ -28,16 +27,10 @@ mas "ServerCat - SSH Terminal", id: 1501532023
 cask "tailscale"
 cask "google-chrome"
 cask "obsidian"
-cask "monero-wallet"
 
 # Media / Games
 cask "iina"
 cask "sony-ps-remote-play"
-
-# Extras
-cask "mist"
-cask "blobsaver"
-cask "pika"
 
 # Communications
 cask "slack"
@@ -49,10 +42,10 @@ cask "slack"
 
 # Tooling & Enviroments
 brew "mise"
+brew "xcodes"
 brew "arduino-cli"
-cask "orbstack" # Docker Alternative
-cask "devpod" # DevContainers Manager
-cask "xcodes" # Xcode Version Manager
+cask "orbstack"
+cask "devpod"
 
 # Code Editors
 brew "helix"

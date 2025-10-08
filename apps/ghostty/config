@@ -1,6 +1,5 @@
 font-family = Menlo
-
-theme = catppuccin-mocha
+theme = Catppuccin Mocha
 split-divider-color = 33334d
 
 focus-follows-mouse = true
