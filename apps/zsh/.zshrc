@@ -14,8 +14,3 @@ source $PROFILES/apps/zsh/plugins/fzf-tab/fzf-tab.plugin.zsh
 source $PROFILES/apps/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $PROFILES/apps/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 eval "$(mise activate zsh)"
-
-
-# Android SDK Setup
-export ANDROID_HOME="$HOME/Library/Android/sdk"
-export PATH="$PATH:$ANDROID_HOME/platform-tools"

@@ -93,9 +93,7 @@ defaults write com.apple.finder "ShowMountedServersOnDesktop" -bool true
 #######################
 
 defaults write com.apple.dock "tilesize" -int 42
-
 defaults write com.apple.dock "autohide" -bool true
-
 defaults write com.apple.dock "show-recents" -bool false
 
 
@@ -105,3 +103,4 @@ defaults write com.apple.dock "show-recents" -bool false
 
 killall "Finder" &> /dev/null
 killall "Dock" &> /dev/null
+  

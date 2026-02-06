@@ -5,6 +5,12 @@
 # Fonts
 cask "font-jetbrains-mono-nerd-font"
 
+# Main Apps
+mas "Bitwarden", id: 1352778147
+cask "tailscale"
+cask "google-chrome"
+cask "slack"
+
 # Terminal
 brew "ripgrep"
 brew "fzf"
@@ -12,30 +18,17 @@ brew "fd"
 cask "ghostty"
 
 # Utilities
-brew "mist"
+brew "mist-cli"
+brew "mole"
 cask "keka"
 cask "kekaexternalhelper"
+cask "raycast"
 cask "stats"
 cask "replacicon"
 cask "transmission"
 cask "soulseek"
 cask "rectangle"
-cask "altserver"
-
-# Main Apps
-mas "Bitwarden", id: 1352778147
-mas "ServerCat - SSH Terminal", id: 1501532023
-cask "tailscale"
-cask "google-chrome"
-cask "obsidian"
-cask "virtualbuddy"
-
-# Media / Games
-cask "iina"
-cask "sony-ps-remote-play"
-
-# Communications
-cask "slack"
+cask "suspicious-package"
 
 
 # ================================================
@@ -45,25 +38,12 @@ cask "slack"
 # Tooling & Enviroments
 brew "mise"
 brew "xcodes"
-brew "arduino-cli"
 cask "orbstack"
-cask "devpod"
 
 # Code Editors
 brew "helix"
 cask "visual-studio-code"
-cask "zed"
-
-# Reverse Engineering
-brew "radare2"
-cask "suspicious-package"
 
 # API / DB
-cask "rapidapi"
-
-
-# ================================================
-# Heavy Stuff (last to install)
-# ================================================
-
-cask "android-studio"
+cask "yaak"
+cask "beekeeper-studio"
