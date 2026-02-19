@@ -44,5 +44,5 @@ brew "helix"
 cask "visual-studio-code"
 
 # API / DB
-cask "rapidapi"
+cask "postman"
 cask "beekeeper-studio"
