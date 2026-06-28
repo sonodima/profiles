@@ -10,6 +10,7 @@ mas "Bitwarden", id: 1352778147
 cask "tailscale"
 cask "google-chrome"
 cask "slack"
+cask "claude"
 
 # Terminal
 brew "ripgrep"
@@ -18,16 +19,16 @@ brew "fd"
 cask "ghostty"
 
 # Utilities
-brew "mist-cli"
-brew "mole"
 cask "keka"
-cask "raycast"
+# cask "raycast"
 cask "stats"
-cask "replacicon"
+cask "mist"
 cask "transmission"
-cask "soulseek"
 cask "rectangle"
-cask "suspicious-package"
+brew "mole"
+# cask "balenaetcher"
+# cask "replacicon"
+# cask "suspicious-package"
 
 
 # ================================================
@@ -36,7 +37,7 @@ cask "suspicious-package"
 
 # Tooling & Enviroments
 brew "mise"
-brew "xcodes"
+cask "xcodes"
 cask "orbstack"
 
 # Code Editors
@@ -46,3 +47,12 @@ cask "visual-studio-code"
 # API / DB
 cask "postman"
 cask "beekeeper-studio"
+
+
+# ================================================
+# Media
+# ================================================
+
+cask "affinity"
+# cask "palmier-pro"
+cask "soulseek"
