@@ -22,12 +22,13 @@ cask "ghostty"
 cask "keka"
 cask "raycast"
 cask "stats"
-cask "mist"
+cask "alcove"
+# cask "mist"
+# cask "balenaetcher"
+cask "replacicon"
 cask "transmission"
 cask "rectangle"
 brew "mole"
-# cask "balenaetcher"
-# cask "replacicon"
 
 
 # ================================================
