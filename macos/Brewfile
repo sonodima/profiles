@@ -6,7 +6,7 @@
 cask "font-jetbrains-mono-nerd-font"
 
 # Main Apps
-mas "Bitwarden", id: 1352778147
+cask "bitwarden"
 cask "tailscale"
 cask "google-chrome"
 cask "slack"
@@ -20,7 +20,7 @@ cask "ghostty"
 
 # Utilities
 cask "keka"
-# cask "raycast"
+cask "raycast"
 cask "stats"
 cask "mist"
 cask "transmission"
@@ -28,7 +28,6 @@ cask "rectangle"
 brew "mole"
 # cask "balenaetcher"
 # cask "replacicon"
-# cask "suspicious-package"
 
 
 # ================================================
@@ -54,5 +53,3 @@ cask "beekeeper-studio"
 # ================================================
 
 cask "affinity"
-# cask "palmier-pro"
-cask "soulseek"

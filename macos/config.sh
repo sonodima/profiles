@@ -103,4 +103,3 @@ defaults write com.apple.dock "show-recents" -bool false
 
 killall "Finder" &> /dev/null
 killall "Dock" &> /dev/null
-  
