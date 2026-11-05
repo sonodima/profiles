@@ -7,10 +7,12 @@ cask "font-jetbrains-mono-nerd-font"
 
 # Main Apps
 cask "bitwarden"
-cask "tailscale"
+cask "tailscale-app"
 cask "google-chrome"
 cask "slack"
 cask "claude"
+cask "raspberry-pi-imager"
+cask "bambu-studio"
 
 # Terminal
 brew "ripgrep"
@@ -23,10 +25,6 @@ cask "keka"
 cask "raycast"
 cask "stats"
 cask "alcove"
-# cask "mist"
-# cask "balenaetcher"
-cask "replacicon"
-cask "transmission"
 cask "rectangle"
 brew "mole"
 
@@ -37,15 +35,19 @@ brew "mole"
 
 # Tooling & Enviroments
 brew "mise"
-cask "xcodes"
+cask "xcodes-app"
 cask "orbstack"
+
+# Git Forges
+brew "gh"
+brew "glab"
 
 # Code Editors
 brew "helix"
 cask "visual-studio-code"
 
 # API / DB
-cask "postman"
+# cask "postman"
 cask "beekeeper-studio"
 
 

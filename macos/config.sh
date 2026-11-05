@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 
 #######################
@@ -9,8 +9,9 @@ uicoset() {
   local key=$1
   local value=$2
 
-  for path in DesktopViewSettings StandardViewSettings FK_StandardViewSettings; do
-    /usr/libexec/PlistBuddy -c "Set :${path}:IconViewSettings:${key} ${value}" \
+  local view
+  for view in DesktopViewSettings StandardViewSettings FK_StandardViewSettings; do
+    /usr/libexec/PlistBuddy -c "Set :${view}:IconViewSettings:${key} ${value}" \
       ~/Library/Preferences/com.apple.finder.plist 2>/dev/null || true
   done
 }
@@ -26,7 +27,7 @@ defaults write NSGlobalDomain "AppleShowAllExtensions" -bool true
 defaults write NSGlobalDomain "NSDocumentSaveNewDocumentsToCloud" -bool false
 
 # When a new disk is connected, do not ask if it should be used for Time Machine
-defaults write com.apple.TimeMachine "DoNotOfferNewDisksForBackup" -bool false
+defaults write com.apple.TimeMachine "DoNotOfferNewDisksForBackup" -bool true
 
 # Don't create ".DS_Store" files on Network or USB Volumes
 defaults write com.apple.desktopservices "DSDontWriteNetworkStores" -bool true
@@ -61,6 +62,9 @@ defaults write com.apple.finder "SidebarWidth" -int 160
 
 # By default, use the column view in Finder
 defaults write com.apple.finder "FXPreferredViewStyle" -string "clmv"
+
+# Automatically resize columns to fit file names (hidden key, ignored if unsupported)
+defaults write com.apple.finder "_FXEnableColumnAutoSizing" -bool true
 
 # By default, perform Finder searches in the current folder
 defaults write com.apple.finder "FXDefaultSearchScope" -string "SCcf"
